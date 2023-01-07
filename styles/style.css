@@ -1,5 +1,6 @@
 *{
-    margin: 0;
+    margin: 0px;
+    font-family: 'Work Sans';
     
 }
 /* banner styles */
@@ -102,10 +103,15 @@ li{
     border: none;
     font-size: 20px;
     font-weight: 600;
+
+}
+.images h3{
+    margin-bottom: 10px;
 }
 /* styles footer */
 footer{
     background: black;
+    padding: 50px;
 } 
 .footer{
     display: flex;
@@ -122,6 +128,7 @@ footer{
 .footer-containt{
     color: #FFFFFF;
     margin-bottom: 20px;
+    
 
 }
 .flaticon{
@@ -134,13 +141,16 @@ footer{
     margin-bottom: 20px;
     margin-top: 100px;
 }
-.input{
+.input-section{
     margin-bottom: 10px;
-    padding-inline-start:10px 5px;
     background: #151414;
     color: #F3F3F3;
     font-weight: 400;
     font-size: 18px;
+    padding: 15px;
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+   
 
 
 }
